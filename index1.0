@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> BVJ Science Centre</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" id="bootstrap-css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href="style.css" rel="stylesheet">
+   <style>
+  
+  </style> 
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!--Navbar Section--> 
+<div id="home" class="container-fluid">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+  <a class="navbar-brand float-left"  style="width:565px;font-size:24px;font-family:Raleway, sans-serif;">BV Jagadeesh Science Centre </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link"  href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"   href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"   href="#opportunities">Opportunities</a>
+      </li> 
+       <li class="nav-item">
+        <a class="nav-link"  href="#activities">Activities</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link"   href="#facilities">Facilities</a>
+      </li>   
+        <li class="nav-item">
+        <a class="nav-link"   href="#contactus"> Contact Us</a>
+      </li>   
+
+    </ul>
+  </div>  
+</nav>
+
+<!-- Carousel -->
+ 
+<!-- About Section -->
+<div id="about" class="container-fluid" style="background-colour:Tomato;">
+	 <div class="intro">
+	<h3 ><center>About</center> </h3>
+<div class="card-group">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">&nbsp;Genesis<br></h4>
+                <p class="card-text">B.V Jagadeesh Science centre is an institution established by the National Education Society of Karnataka [NES] in the year 2001, for everyone interested in learning science, particularly focused to encourage youth to take up careers in
+                    basic sciences.<br><br></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">&nbsp;Objectives<br></h4>
+                <p class="card-text">Establish a dynamic destination where families, adults and children can explore science through books, interactive exhibits, live demonstrations, innovative programs and inspirational films.<br></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">&nbsp;Values<br></h4>
+                <p class="card-text">We aspire to stimulate curiosity and inspire science learning in everyone, because we value science as an indispensable tool for understanding our world and enriching people's lives.<br></p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    <br>
+    <br>
+
+ <!--Opportunities Section-->
+ <div id="opportunities" class="container-fluid" style="background-color: violet">
+  <div class="container">
+            <div class="intro">
+                <h2 class="text-center">&nbsp;Opportunities</h2>
+            </div><br>
+            <div class="row features">
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-map-marker icon"></i>
+                    <h3 class="name">Perform Experiments<br></h3>
+                    <p class="description">&nbsp;Perform your own or one of our experiments.<br></p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-clock-o icon"></i>
+                    <h3 class="name">Curating Museum<br></h3>
+                    <p class="description">&nbsp;Manage and maintain our Museums on Weekends<br></p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-list-alt icon"></i>
+                    <h3 class="name">Manage Library<br></h3>
+                    <p class="description">Yet to decide.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-leaf icon"></i>
+                    <h3 class="name">Night Sky-Watch<br></h3>
+                    <p class="description">&nbsp;Conduct and enjoy astronomy sessions .<br></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <br>
+        <br>
+
+         <!-- Activities Section-->
+         <div id="activities" class="container-fluid">
+         	<h3><center> Activities </center></h3>
+
+         <div class="alert alert-primary" role="alert">
+          Workshops
+         </div>
+         <div class="alert alert-primary" role="alert">
+          Symposiums
+         </div>
+        <div class="alert alert-primary" role="alert">
+          Lecture Series
+         </div>
+        <div class="alert alert-primary" role="alert">
+          Training Sessions
+         </div>
+         <br><br>
+
+         <!--Facilities Section-->
+         <h3><center> Facilities </center></h3>
+<div id="facilities" class="container-fluid">
+  <div class="container">
+<div class="card mb-3">
+  <img src="..." class="card-img-top" alt="Science Library">
+  <div class="card-body">
+    <h5 class="card-title">Science Library</h5>
+    <p class="card-text">Welcome to the only Science Library in Jayanagar.</p>
+    <p class="card-text"><small class="text-muted"></small></p>
+  </div>
+</div>
+
+<div class="card mb-3">
+  <img src="..." class="card-img-top" alt="A.V. Hall">
+  <div class="card-body">
+    <h5 class="card-title">A.V Hall</h5>
+    <p class="card-text"> A 150 seating capacity auditorium is equipped with audio-visual equipments..</p>
+    <p class="card-text"><small class="text-muted"></small></p>
+  </div>
+</div>
+<div class="card mb-3">
+  <img src="..." class="card-img-top" alt="Museums">
+  <div class="card-body">
+    <h5 class="card-title">Museums</h5>
+    <p class="card-text"> BVJ Science Centre is housed with two museums having models realted to Physics,Chemistry and Psychology .</p>
+    <p class="card-text"><small class="text-muted"></small></p>
+  </div>
+</div>
+<div class="card mb-3">
+  <img src="..." class="card-img-top" alt="Weather Monitoring Station">
+  <div class="card-body">
+    <h5 class="card-title">Weather Monitoring Station</h5>
+    <p class="card-text"> a Weather Monitoring Station is installled on the terrace of the building.</p>
+    <p class="card-text"><small class="text-muted"></small></p>
+  </div>
+</div>
+<br><br>
+   
+
+         <!--Partners Section-->
+  
+<!--Office section -->
+        <!-- Four columns of text below About -->
+
+         
+
+<!--Footer section-->
+ <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <!--<div class="col-lg-3 col-md-6 footer-info">
+            <img src="img/logo.png" alt="TheEvenet">
+            <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae r.</p>
+          </div>-->
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Sitemap</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Office</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Facilities</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Opportunities</a></li>
+               
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            
+             <h4>Sitemap</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Activities</a></li>
+ 
+               
+               
+              <li><i class="fa fa-angle-right"></i> <a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              #182,183,36<sup>th</sup> Cross, <br>
+              Jayanagar 7<sup>th</sup> Block, Bengaluru 560070<br>
+              karnataka, India <br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</
+
+              strong> bvjsci@gmail.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <br>
+            <br>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+<footer class="py-5 bg-dark">
+ <div class="container">
+  <p class="m-0 text-center text-white">Copyright © BVJ Science Centre 2020</p>
+</div>
+</footer>
+<a href="home" class="back-to-top" style="display: inline;"><i class="fa fa-angle-up"></i></a>
+
+
+
+</body>
+</html>
